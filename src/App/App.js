@@ -9,6 +9,8 @@ import { WeatherDaySw } from '../WeatherDaySw/WeatherDaySw';
 export const App = () => {
 
   const [weatherInfo, setWeatherInfo] = useState();
+  const [temperatura, setTemperatura] = useState("");
+  const [ciudad] = useState("Bogotá");
 
 
   useEffect(() => {
@@ -24,9 +26,17 @@ export const App = () => {
       })));
   }, []);
 
+  useEffect(() => {
+    fetch(`http://api.openweathermap.org/data/2.5/weather?q=Bogota,CO&APPID=d0fed389831e829ff46ed9cf1e3950ca`)
+        .then(res => res.json())
+        .then(res => setTemperatura(res.main.temp - 273.15));
+
+}, []);
+
+
   return (
     <div>
-      <WeatherDay />
+      <WeatherDay temperatura={temperatura} ciudad={ciudad}/>
       <div className="divContainer">
         <div className="divForecast">
           <div className="daysForecast">
