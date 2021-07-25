@@ -1,0 +1,34 @@
+.imgPlaces{
+    height: 160px;
+    width: 250px;
+    border-radius: 15px;
+}
+
+.imgPlaces2{
+    height: 50px;
+    width: 250px;
+    border-radius: 15px;
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Blue_Zurich_%2831895270053%29.jpg/1200px-Blue_Zurich_%2831895270053%29.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.imgPlaces3{
+    height: 97px;
+    width: 250px;
+    border-radius: 15px;
+    background-image: url('https://www.lugaresdenieve.com/sites/default/files/zermatt_23.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 15px;
+}
+
+.containerPlaces{
+    display: flex;
+}
+
+.divPlaces{
+    margin-left: 25px;
+}

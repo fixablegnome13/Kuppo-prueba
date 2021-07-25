@@ -1,0 +1,38 @@
+.containerGeneral{
+    border-radius: 15px;
+}
+
+.containerSw{
+    display: flex;
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.containerSec{
+    display: flex;
+    margin-left: 40px;
+    width: 250px;
+
+}
+
+.divImgsw{
+    background-color: rgb(209, 233, 255);
+    border-radius: 10px;
+    width: 60px;
+    height: 60px;
+    align-content: center;
+    float: left;
+}
+
+.divWeathersw{
+    float: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 37px;
+
+}
+
+.divCiudad{
+    float: right;
+    margin-left: 37px;
+}

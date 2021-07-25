@@ -1,0 +1,20 @@
+.divImagen{
+    margin-left: 5%;
+    margin-top: 2%;
+    border-radius: 15px;
+}
+
+.divPrincipal{
+    height: 350px;
+    width: 1130px;
+    display: flex;
+    justify-content: left;
+    font-weight: bold;
+    font-size: 30px;
+    color: #2110AA;
+    border-radius: 15px;
+    background-image: url('https://imagenescityexpress.scdn6.secure.raxcdn.com/sites/default/files/styles/hotel_landing_page/public/2017-09/candelaria-bogota.jpg?itok=JG_9mPVd');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
