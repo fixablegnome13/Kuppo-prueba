@@ -27,7 +27,7 @@ export const App = () => {
   }, []);
 
   useEffect(() => {
-    fetch(`http://api.openweathermap.org/data/2.5/weather?q=Bogota,CO&APPID=d0fed389831e829ff46ed9cf1e3950ca`)
+    fetch(`https://api.openweathermap.org/data/2.5/weather?q=Bogota,CO&APPID=d0fed389831e829ff46ed9cf1e3950ca`)
         .then(res => res.json())
         .then(res => setTemperatura(res.main.temp - 273.15));
 
